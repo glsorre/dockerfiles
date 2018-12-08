@@ -2,7 +2,7 @@ FROM kalilinux/kali-linux-docker
 
 RUN apt-get -y update
 RUN apt-get -y upgrade
-RUN apt-get install -y metasploit-framework aircrack-ng pciutils net-tools nmap macchanger zsh bettercap
+RUN apt-get install -y metasploit-framework aircrack-ng pciutils net-tools nmap macchanger zsh bettercap reaver
 
 ADD https://github.com/glsorre/dotfiles/archive/master.tar.gz /root
 
